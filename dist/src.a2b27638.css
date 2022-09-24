@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(105, 15, 141);
+  padding: 0 8px;
+  text-align: center;
+}
+
+.nav__header {
+  margin-left: auto; /* very unique*/
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.nav__header li {
+  display: inline-block;
+}
+
+.nav__header a {
+  padding: 12px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+.user .img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: sandybrown;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
